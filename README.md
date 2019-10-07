@@ -12,6 +12,6 @@ console.log(gen.next())
 
 #### 执行：
 ```js
-node example.js
+node dist/index.js
 { value: '23', done: false }
 ```
