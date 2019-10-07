@@ -1,6 +1,7 @@
 ## generator 函数原理
 
-babel 转换es6 的generator 方法，需要使用transform-runtime 插件。dist 目录是缩小版的gennerator 函数转换后的代码，方便理解其原理。
+babel 转换es6 的generator 方法时，需要使用transform-runtime 插件。<br/>
+dist 目录是缩小版的gennerator 函数转换后的代码，方便理解其原理。
 
 ```js
 function* interator() {
