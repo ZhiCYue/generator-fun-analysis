@@ -27,16 +27,17 @@
         function interator() {
           var a;
           return _regenerator.default.wrap(function interator$(_context) {
-            while (1) switch (_context.prev = _context.next) {
-              case 0:
-                _context.next = 2;
-                return '23';
-              case 2:
-                a = _context.sent;
-                console.log(a);
-              case 4:
-              case "end":
-                return _context.stop();
+            while (1)
+              switch (_context.prev = _context.next) {
+                case 0:
+                  _context.next = 2;
+                  return '23';
+                case 2:
+                  a = _context.sent;
+                  console.log(a);
+                case 4:
+                case "end":
+                  return _context.stop();
             }
           }, _marked);
         }
@@ -389,7 +390,8 @@
           }
           function Context(tryLocsList) {
             this.tryEntries = [{ tryLoc: "root" }];
-            tryLocsList.forEach(pushTryEntry, this); this.reset(true);
+            tryLocsList.forEach(pushTryEntry, this);
+            this.reset(true);
           }
 
           runtime.keys = function (object) {
@@ -459,7 +461,8 @@
             };
           }
           Context.prototype = {
-            constructor: Context, reset: function (skipTempReset) {
+            constructor: Context,
+            reset: function (skipTempReset) {
               this.prev = 0;
               this.next = 0;
               this.sent = this._sent = undefined;
