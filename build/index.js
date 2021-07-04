@@ -43,6 +43,7 @@
         }
         var gen = interator();
         console.log(gen.next());
+        gen.next(2);
       }),
 
     "./dist/runtime-module.js":
